@@ -1,0 +1,8 @@
+prompt
+1era etapa
+- crear esqueleto html sin incluir css de una pagina que promociona productos con imagenes, conteniendo un header con nombre del producto y un p con breve descripcion, la estructura basica y una seccion destacada que puede ser con un container para mostrar los productos destacados.
+- crear un diseño moderno y llamativo para clientes que buscan tecnologias con colores pasteles azul
+- centrar el contenido de la página en relacion a el index y darle un fondo azul pastel, además de estilizar los productos con un diseño limpio y moderno. */
+- modificar la pagina para que el titulo quede arriba y los productos queden debajo del titulo, ademas de agregar un fondo a la pagina y mejorar el diseño de los productos, para que se vean mas atractivos. -->
+- agregar caracteristicas organizadas en listas, dos atributos para cada producto y una presentacion clara
+- modificar la pagina con colores llamativos y fuentes modernas para hacerla mas atractiva visualmente. y con un diseño responsive para que se vea bien en dispositivos móviles.
