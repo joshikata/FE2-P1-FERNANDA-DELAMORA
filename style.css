@@ -1,63 +1,56 @@
 
-/* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff; /* Color de fondo azul pastel */
-    color: #333; /* Color de texto oscuro para contraste */
-    margin: 0;
-    padding: 0;
-}
-/* Encabezado */
-header {
-    background-color: #add8e6; /* Color de fondo azul pastel claro */
-    padding: 20px;
-    text-align: center;
-}
-header h1 {
-    color: #333; /* Color de texto oscuro para contraste */
-    margin: 0;
-}
-/* Sección de servicios */
-.services {
+    background-color: #a8dadc; /* Fondo azul pastel */
     display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-}
-.service {
-    background-color: #e0f7fa; /* Color de fondo azul pastel más claro */
-    border-radius: 10px;
-    padding: 20px;
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-.service h2 {
-    color: #333; /* Color de texto oscuro para contraste */
-    margin-bottom: 10px;
-}
-.service p {
-    color: #666; /* Color de texto más claro para descripción */
-}
-/* Pie de página */
-footer {
-    background-color: #add8e6; /* Color de fondo azul pastel claro */
-    padding: 20px;
-    text-align: center;
-}
-footer p {
-    color: #333; /* Color de texto oscuro para contraste */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
 }
-/* Botones */
-.button {
-    background-color: #87ceeb; /* Color de fondo azul pastel */
-    color: #fff; /* Color de texto blanco para contraste */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1faee; /* Fondo claro para los productos */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333333;
+}
+.product p {
+    font-size: 1em;
+    color: #666666;
+    text-align: center;
+}
+.product button {
+    margin-top: 10px;
     padding: 10px 20px;
+    background-color: #457b9d; /* Botón azul */
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.button:hover {
-    background-color: #00bfff; /* Color de fondo azul pastel más oscuro al pasar el mouse */
+.product button:hover {
+    background-color: #1d3557; /* Color más oscuro al pasar el mouse */
 }
